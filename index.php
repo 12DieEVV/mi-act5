@@ -6,7 +6,7 @@ echo "<p>¡Hola mundo desde AWS!</p>";
 $servername = "lab-db.coxofei5xgh6.us-east-1.rds.amazonaws.com";
 $username = "admin";
 $password = "Admin1234";
-$dbname = "lab-db";
+$dbname = "transporte_db";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
